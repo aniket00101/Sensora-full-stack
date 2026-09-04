@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-ink text-white font-body;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display;
+}
+
+.container-x {
+  @apply max-w-7xl mx-auto px-6;
+}
+
+.btn-primary {
+  @apply inline-block bg-accent text-ink font-semibold px-6 py-3 rounded-full hover:bg-accent2 hover:text-white transition-colors;
+}
+
+.btn-ghost {
+  @apply inline-block border border-white/30 text-white font-semibold px-6 py-3 rounded-full hover:border-accent hover:text-accent transition-colors;
+}
+
+.card {
+  @apply bg-panel border border-white/10 rounded-2xl p-6 hover:border-accent/50 transition-colors;
+}
+
+.section-eyebrow {
+  @apply text-accent uppercase tracking-widest text-xs font-semibold;
+}
