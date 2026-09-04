@@ -47,7 +47,7 @@ export default function Home() {
               src={toDirectImageUrl(hero.image)}
               alt={hero?.title || "Sensora Technology"}
               referrerPolicy="no-referrer"
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-contain"
             />
           </div>
         )}

@@ -18,7 +18,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 backdrop-blur bg-ink/80 border-b border-white/10">
       <div className="container-x flex items-center justify-between h-16">
         <Link to="/" className="font-display font-bold text-lg tracking-tight">
-          SENSORA<span className="text-accent">.</span>
+          SENSORA
         </Link>
 
         <nav className="hidden md:flex items-center gap-7 text-sm">
